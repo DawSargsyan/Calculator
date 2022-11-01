@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="div1">
+            <input type="text" id="input1" readonly placeholder="0">
+            <input type="text" id="inputSum" readonly>
+        </div>
+        <div>
+            <input type="button" onclick="getnumber(7)" value="7">
+            <input type="button" onclick="getnumber(8)" value="8">
+            <input type="button" onclick="getnumber(9)" value="9">
+            <input type="button" onclick="getOperator('÷')" value="÷" class="input-5">
+        </div>
+        <div>
+            <input type="button" onclick="getnumber(4)" value="4">
+            <input type="button" onclick="getnumber(5)" value="5">
+            <input type="button" onclick="getnumber(6)" value="6">
+            <input type="button" onclick="getOperator('x')" value="x" class="input-9">
+        </div>
+        <div>
+            <input type="button" onclick="getnumber(1)" value="1">
+            <input type="button" onclick="getnumber(2)" value="2">
+            <input type="button" onclick="getnumber(3)" value="3">
+            <input type="button" onclick="getOperator('-')" value="-" class="input-13">
+        </div>
+        <div>
+            <input type="button" onclick="getnumber(0)" value="0">
+            <input type="button" onclick="getClearinput()" value="C" class="input-15">
+            <input type="button" onclick="getSum('=')" value="=" class="input-16">
+            <input type="button" onclick="getOperator('+')" value="+" class="input-17">
+        </div>
+    </div>
+
+   
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
